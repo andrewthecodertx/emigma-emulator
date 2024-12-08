@@ -1,2 +1,2 @@
 enigma
-src/*.o
+./src/*.o
