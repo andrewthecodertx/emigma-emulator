@@ -7,7 +7,7 @@ TARGET = enigma
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
-    $(CXX) $(CXXFLAGS) $(OBJS) -o $(TARGET)
+	$(CXX) $(CXXFLAGS) $(OBJS) -o $(TARGET)
 
 clean:
-    rm -f $(OBJS) $(TARGET)
+	rm -f $(OBJS) $(TARGET)
